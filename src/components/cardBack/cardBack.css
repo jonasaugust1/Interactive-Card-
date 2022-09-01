@@ -1,0 +1,19 @@
+.card-back {
+    position: absolute;
+    top: 52%;
+    left: 25%;
+    background-image: url('../../assets/images/bg-card-back.png');
+    background-size: cover;
+    width: 25%;
+    height: 25%;
+    padding: 2%;
+    border-radius: 8px;
+}
+
+.cvc {
+    position: relative;
+    top: 47%;
+    left: 38%;
+    color: white;
+    letter-spacing: 3px;
+}

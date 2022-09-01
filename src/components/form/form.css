@@ -1,0 +1,77 @@
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    margin-right: 13%;
+    width: 30%;
+}
+
+label {
+    color: hsl(278, 68%, 11%);
+    text-align: left;
+    margin-top: 7%;
+    margin-bottom: 2%;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+input{
+    width: 70%;
+    padding: 4%;
+    border-radius: 8px;
+    border: 0.5px solid hsl(270, 3%, 87%);
+    color: hsl(278, 68%, 11%);
+}
+
+.card-auth {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.8rem;
+    color: red;
+    margin-top: 2%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.expire-date {
+    display: flex;
+    margin-top: 7%;
+    width: 50%;
+}
+
+.expire-date input {
+    width: 30%;
+}
+
+legend {
+    text-align: left;
+    margin-bottom: 2%;
+    color: hsl(278, 68%, 11%);
+    font-size: 0.8rem;
+}
+
+.cvc-field {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 7%;
+    text-align: left;
+}
+
+.cvc-field input {
+    width: 40%;
+}
+
+button {
+    margin-top: 10%;
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    padding: 3%;
+    border-radius: 10px;
+    width: 80%;
+    cursor: pointer;
+}
+
