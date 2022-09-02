@@ -3,6 +3,7 @@
     top: 15%;
     left: 20%;
     background-image: url('../../assets/images/bg-card-front.png');
+    background-repeat: no-repeat;
     width: 25%;
     height: 25%;
     padding: 2%;
@@ -48,4 +49,28 @@
     justify-content: space-between;
     margin-top: 5%;
     color: white;
+}
+
+@media only screen and (max-width: 1024px){
+
+    .card {
+        top: 15%;
+        left: 8%;
+        width: 35%;
+        height: 20%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 70%;
+        height: 20%;
+        z-index: 2;
+    }
+
+    .number {
+        font-size: 1.2rem;
+    }
+
+
 }

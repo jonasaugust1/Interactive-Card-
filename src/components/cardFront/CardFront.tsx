@@ -1,7 +1,6 @@
-import { ChildPropsState } from '../../types/types'
 import './cardFront.css'
 
-const CardFront = (props: ChildPropsState) => {
+const CardFront = ({name, cardNumber, expireDate}: {name: string, cardNumber: string, expireDate: string}) => {
     
 
     return (
@@ -13,12 +12,12 @@ const CardFront = (props: ChildPropsState) => {
            
 
             <div className="number-container">
-                <span className="number">{props.cardNumber}</span>
+                <span className="number">{cardNumber}</span>
             </div>
 
             <div className="info-container">
-                <span className="name">{props.name}</span>
-                <span className="date">{props.expireDate}</span>
+                <span className="name">{name}</span>
+                <span className="date">{expireDate}</span>
             </div>
         </div>
     )

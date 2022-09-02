@@ -10,7 +10,7 @@ function App() {
   const [name, setName] = useState('Jonas Augusto')
   const [cardNumber, setCardNumber] = useState('0000 0000 0000 0000')
   const [expireDate, setExpireDate] = useState('00/00')
-  const [cvc, setCvc] = useState('111')
+  const [cvc, setCvc] = useState('000')
 
   const nameHandler = (name:string) => {
     setName(name)
@@ -37,12 +37,8 @@ function App() {
           name={name}
           cardNumber={cardNumber}
           expireDate={expireDate}
-          cvc={cvc}
         />
         <CardBack
-          name={name}
-          cardNumber={cardNumber}
-          expireDate={expireDate}
           cvc={cvc}
         />
       </div>

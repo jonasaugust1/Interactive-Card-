@@ -4,10 +4,3 @@ export interface ChildProps{
     onExpireDate: (expireDate: string) => void
     onCvc: (cvc: string) => void
 }
-
-export interface ChildPropsState {
-    name: string
-    cardNumber: string
-    expireDate: string
-    cvc: string
-}

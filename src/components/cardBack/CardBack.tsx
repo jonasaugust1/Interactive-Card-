@@ -1,12 +1,11 @@
-import { ChildPropsState } from '../../types/types'
 import './cardBack.css'
 
 
-const CardBack = (props: ChildPropsState) => {
+const CardBack = ({cvc}: {cvc: string}) => {
 
     return (
         <div className='card-back'>
-            <span className='cvc'>{props.cvc}</span>   
+            <span className='cvc'>{cvc}</span>   
         </div>
     )
 }

@@ -75,3 +75,25 @@ button {
     cursor: pointer;
 }
 
+@media only screen and (max-width: 600px) {
+
+    form {
+        margin-right: 0;
+        margin-top: 20%;
+        width: 90%;
+    }
+
+    input{
+        width: 90%;
+        padding: 4%;
+    }
+
+    button {
+        width: 95%;
+        align-self: center;
+    }
+
+    .cvc-field input {
+        padding: 8%;
+    }
+}
